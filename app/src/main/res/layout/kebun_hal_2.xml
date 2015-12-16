@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff5ec3ff"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:padding="20dip"
+        android:text="BLOK IV. LUAS TANAM, LUAS PANEN, PRODUKSI DAN HARGA JUAL PANEN TANAMAN PERKEBUNAN TERPILIH" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="401. Luas tanam akhir bulan yang lalu, luas panen habis, luas panen belum habis, luas rusak, luas penanaman baru, luas tanaman akhir bulan ini, produksi, dan harga jual panen" />
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/listview_bulan"
+            android:drawSelectorOnTop="true"
+            android:choiceMode="singleChoice"
+            android:layout_width="200dip"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <include layout="@layout/kebun_hal_2a"  />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

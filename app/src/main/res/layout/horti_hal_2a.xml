@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/customborder"
+    >
+<TextView
+    style="@style/pertanyaan"
+    android:id="@+id/textBulan"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="5dp"
+    android:background="#5EC3FF"
+    android:textColor="#ffffff"
+    android:layout_height="wrap_content" android:text="Januari"
+    android:textAlignment="center"
+    />
+
+<TableLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="20dp"
+    >
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Luas Tanaman  Akhir Bulan yang lalu (Ha)"
+            />
+        <EditText
+            android:tag="B4K3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="50dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Luas Tanaman  Habis dibongkar (Ha)"
+            />
+        <EditText
+            android:tag="B4K4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Luas Tanaman  Belum Habis (Ha)"
+            />
+        <EditText
+            android:tag="B4K5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Luas Rusak / Tidak berhasil / Poso (Ha)"
+            />
+
+        <EditText
+            android:tag="B4K6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Luas Penanaman Baru / Tambah Tanam (Ha)"
+            />
+        <EditText
+            android:tag="B4K7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Luas Tanaman Akhir Bulan Laporan"
+            />
+        <EditText
+            android:tag="B4K8"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Produksi (Kg) Dipanen Habis / Dibongkar"
+            />
+        <EditText
+            android:tag="B4K9"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Produksi (Kg) Dipanen Habis / Belum Habis"
+            />
+        <EditText
+            android:tag="B4K10"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Harga Jual Petani per Kg"
+            />
+        <EditText
+            android:tag="B4K11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Keterangan"
+            />
+        <EditText
+            android:tag="B4K12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+</TableLayout>
+</LinearLayout>

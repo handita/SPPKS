@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="bps.go.id.sppks">
+
+    <application
+    tools:replace="adndroid:icon"
+
+        android:name="com.activeandroid.app.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".ItemListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+
+        <activity android:name=".KuesionerActivity" />
+        <activity android:name=".DaftarRTActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity" />
+
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="bps.go.id.sppks.Models" />
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="sppks.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--<uses-sdk tools:overrideLibrary="com.baoyz.swipemenulistview" />-->
+
+</manifest>

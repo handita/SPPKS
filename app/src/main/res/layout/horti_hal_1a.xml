@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/pertanyaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="306. Jenis pupuk yang digunakan" />
+
+    <RadioGroup
+        android:tag="R306"
+        android:id="@+id/radioGroup306"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonR306a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Organik" />
+
+        <RadioButton
+            android:id="@+id/radioButtonR306b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Urea" />
+
+        <RadioButton
+            android:id="@+id/radioButtonR306c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TSP" />
+
+        <RadioButton
+            android:id="@+id/radioButton306d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NPK" />
+
+        <RadioButton
+            android:id="@+id/radioButtonR306e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZA" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/pertanyaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="307. a. Apakah pernah terserang OPT?" />
+
+    <RadioGroup
+        android:tag="R307a"
+        android:id="@+id/radioGroup307"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonR307a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ya" />
+        <EditText
+            android:tag="R307a1"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="200dp"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonR307a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidak" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/pertanyaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="b. Dampak serangan OPT terhadap penurunan produktivitas/produksi mencapai :" />
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:tag="R307b"
+            android:id="@+id/textR307b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="persen" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        style="@style/pertanyaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c. Apakah melakukan upaya pengendalian hama / OPT" />
+
+    <RadioGroup
+        android:tag="R307c"
+        android:id="@+id/radioGroup307c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp">
+
+        <RadioButton
+            android:tag="R307c"
+            android:id="@+id/radioButtonR407c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ya" />
+
+        <RadioButton
+            android:id="@+id/radioButtonR307c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidak" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        style="@style/pertanyaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d. Cara pengendalian hama / OPT yang utama dilakukan :" />
+
+    <RadioGroup
+        android:tag="R307d"
+        android:layout_marginLeft="55dp"
+        android:id="@+id/radioGroup307d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="Agronomi (dengan cara pemupukan, pengolahan tanah, pengaturan irigasi, dan lain lain)"
+            android:id="@+id/radioButton307d1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="Mekanis (dengan cara pemagaran atau penghalang [misal plastik], pemakaian perangkap, dan lain-lain)"
+            android:id="@+id/radioButton307d2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="Hayati (dengan memanfaatkan agen hayati atau pemangsa alami yang sesuai)"
+            android:id="@+id/radioButton307d3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="Kimiawi (dengan cara menggunakan pestisida, dan lain-lain"
+            android:id="@+id/radioButton307d4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+</LinearLayout>

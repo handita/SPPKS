@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/garuda"
+
+        />
+
+    <TextView
+        style="@style/pertanyaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BADAN PUSAT STATISTIK" />
+
+    <TextView
+        style="@style/pertanyaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="SURVEI PENDATAAN PRODUKSI KOMODITAS STRATEGIS PERKEBUNAN" />
+
+    <TextView
+        style="@style/pertanyaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TAHUN 2015" />
+
+
+    <TextView
+        style="@style/pertanyaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#5EC3FF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="BLOK 1. KETERANGAN TEMPAT"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <TableRow>
+
+                <TextView
+                    style="@style/pertanyaan.center"
+                    android:text="101. Provinsi :" />
+
+                <TextView
+                    android:id="@+id/label_propinsi"
+                    style="@style/labelbiru"
+                    android:text="33 - JAWA TENGAH" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/pertanyaan.center"
+                    android:text="102. Kabupaten :" />
+
+                <TextView
+                    android:id="@+id/label_kabupaten"
+                    style="@style/labelbiru"
+                    android:text="09 - BOYOLALI" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/pertanyaan.center"
+                    android:text="103. Kecamatan :" />
+
+                <TextView
+                    android:id="@+id/label_kecamatan"
+                    style="@style/labelbiru"
+                    android:text="010 - BOYOLALI" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/pertanyaan.center"
+                    android:text="104. Desa :" />
+
+                <TextView
+                    android:id="@+id/label_desa"
+                    style="@style/labelbiru"
+                    android:text="09 - PENGGUNG" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/pertanyaan.center"
+                    android:text="105. Klasifikasi Desa  :" />
+
+                <TextView
+                    android:id="@+id/label_kualifikasi_desa"
+                    style="@style/labelbiru"
+                    android:text="2 - Perdesaan" />
+            </TableRow>
+
+
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+
+            <TableRow>
+
+                <TextView
+                    style="@style/pertanyaan.center"
+                    android:text="106. NBS  :" />
+
+                <TextView
+                    android:id="@+id/label_nbs"
+                    style="@style/labelbiru"
+                    android:text="002B" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/pertanyaan.center"
+                    android:text="107. NKS  :" />
+
+                <TextView
+                    android:id="@+id/label_nks"
+                    style="@style/labelbiru"
+                    android:text="88765" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/pertanyaan.center"
+                    android:text="108. NUS  :" />
+
+                <TextView
+                    android:id="@+id/label_nus"
+                    style="@style/labelbiru"
+                    android:text="1" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/pertanyaan.center"
+                    android:text="109. Nama Kepala Rumah Tangga  :" />
+
+                <TextView
+                    android:id="@+id/label_nama_krt"
+                    style="@style/labelbiru"
+                    android:text="Agung Podomoro Sayekti" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/pertanyaan.center"
+                    android:text="110. Jenis Tanaman Terpilih  :" />
+
+                <TextView
+                    android:id="@+id/label_tanaman_terpilih"
+                    style="@style/labelbiru"
+                    android:text="1 - CABE" />
+            </TableRow>
+
+
+        </TableLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar" >
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="pertanyaan" parent="android:TextAppearance.Medium">
+
+    </style>
+
+
+    <style name="pertanyaan.center" parent="pertanyaan">
+        <item name="android:gravity">center_vertical</item>
+        <!--<item name="android:layout_gravity">center</item>-->
+    </style>
+
+    <style name="labelbiru" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#5EC3FF</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+
+    <color name="biru">#52AEE4</color>
+    <color name="putih">#FFFFFF</color>
+
+</resources>

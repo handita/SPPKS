@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="40dp" android:layout_margin="5dp"
+    android:background="#F2EBC7"
+    >
+    <ImageView
+        android:src="@drawable/garuda"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:background="#348899"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:text="32"
+        android:gravity="center"
+        android:layout_width="30dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/text_wilayah"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="Boyolali"
+        />
+</LinearLayout>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff5ec3ff"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="BLOK III. KETERANGAN BUDIDAYA KOMODITAS PERKEBUNAN TERPILIH"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dip"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/pertanyaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="301. Jenis Penggunaan Lahan :" />
+
+                <RadioGroup
+                    android:id="@+id/radioR301"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="R301">
+
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Lahan Sawah" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:checked="false"
+                        android:text="Lahan Bukan Sawah" />
+                </RadioGroup>
+
+
+                <TextView
+                    style="@style/pertanyaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="302. System Penanaman :" />
+
+                <RadioGroup
+                    android:id="@+id/radioR302"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="R302">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Tunggal" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:checked="false"
+                        android:text="Tumpangsari/Sela/Campuran" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:checked="false"
+                        android:ems="10"
+                        android:tag="R302a"
+                        android:text="" />
+                </RadioGroup>
+
+                <TextView
+                    style="@style/pertanyaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="303. a. Cara Penanaman :" />
+
+                <RadioGroup
+                    android:id="@+id/radioR303"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="R303a">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Teratur" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:checked="false"
+                        android:text="Tidak Teratur" />
+                </RadioGroup>
+
+                <TextView
+                    style="@style/pertanyaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         b. Jarak Tanam :" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(BT)" />
+
+                    <EditText
+                        android:id="@+id/text303b1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="R303b1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CM X " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(US)" />
+
+                    <EditText
+                        android:id="@+id/textR303b2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="R303b2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CM" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/pertanyaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="304. a. Jenis Varietas" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup304a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="R304a">
+
+                    <RadioButton
+                        android:id="@+id/radioButton304a1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:text="Unggul" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton30412"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:text="Lokal" />
+                </RadioGroup>
+
+                <TextView
+                    style="@style/pertanyaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:text="b. Nama Varietas" />
+
+                <EditText
+                    android:id="@+id/textR304b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:width="200dp"
+                    android:tag="R304b" />
+
+                <TextView
+                    style="@style/pertanyaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="305. Kualitas Benih" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup305"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:tag="R305">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonR305a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bersertifikat" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonR305b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tidak Bersertifikat" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <include layout="@layout/horti_hal_1a" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

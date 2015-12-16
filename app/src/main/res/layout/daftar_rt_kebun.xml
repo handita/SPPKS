@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="#88ffffff"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:background="@drawable/kebun"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#80343642"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="DAFTAR RT SURVEI PENDATAAN PRODUKSI KOMODITAS STRATEGIS PERKEBUNAN"
+            android:textColor="#ffffff" />
+
+        <TableLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Provinsi :"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/label_propinsi"
+                    android:textColor="#ffffff"
+                    android:background="#CC979C9C"
+                    android:padding="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Jawa Tengah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Kabupaten :"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/label_kabupaten"
+                    android:textColor="#ffffff"
+                    android:background="#CC979C9C"
+                    android:padding="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Boyolali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+            </TableRow>
+        </TableLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/list_kecamatan"
+                android:background="#80F2EBC7"
+                android:layout_weight="0.4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </ListView>
+            <ListView
+                android:id="@+id/list_desa"
+                android:background="#80979C9C"
+                android:layout_weight="0.4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </ListView>
+            <com.baoyz.swipemenulistview.SwipeMenuListView
+                android:id="@+id/list_rt"
+                android:background="#80FFFFFF"
+                android:layout_weight="0.3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
