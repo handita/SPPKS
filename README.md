@@ -5,6 +5,10 @@ Source Code Contoh Aplikasi Aplikasi Survei Kuesioner berbasis Android
 
 Created By [Handita Okviyanto](https://www.linkedin.com/in/handita-okviyanto-71387133)
 
+
+Detil posting dapat dilihat di halaman ini
+http://lawangkode.com/cara-membuat-aplikasi-survei-dengan-kuesioner-berbasis-tablet-android/
+
 Password default :
 - username :admin
 - password :nimda
@@ -19,7 +23,7 @@ Teknologi yang dipakai
 ##Tampilan Splash Screen 
 
 
-![SplashScreen](https://raw.githubusercontent.com/handita/SPPKS/master/screenshot/sppks2.jpg)
+![SplashScreen](https://raw.githubusercontent.com/handita/SPPKS/master/screenshot/sppks2.png)
 
 
 ##Tampilan Login Screen
